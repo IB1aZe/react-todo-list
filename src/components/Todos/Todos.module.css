@@ -1,0 +1,56 @@
+.todo {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo_list {
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: flex-start;
+    text-align: left;
+    width: 93vw;
+    height: 90vh;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    overflow-x: auto;
+}
+
+.todo_item label {
+    margin-left: 10px;
+}
+
+.todo_item input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.todo_btn {
+    margin-left: 10px;
+    width: 5vw;
+    height: 2vh;
+    align-items: center;
+    text-align: center;
+}
+
+.todo_input {
+    height: 5vh;
+    align-content: flex-start;
+    text-align: left;
+}
+
+.todo_input_inp {
+    height: 5vh;
+    width: 82vw;
+    align-content: flex-start;
+    text-align: left;
+}
+
+.todo_input_btn {
+    width: 11vw;
+    height: 5vh;
+    align-items: center;
+    text-align: center;
+}
